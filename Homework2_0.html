@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> Homework2.0 </title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Личная Информация</legend>
+            <label for = "name">Name:</label>
+            <input type = "text" id = "name" name = "name" required>
+            <label for = "email">Email:</label>
+            <input type = "email" id = "email" name = "email" required>
+            <label for = "password">Password:</label>
+            <input type = "password" id = "password" name = "password" required>
+            <label for = "Commentary">Commentary:</label>
+            <textarea id = "message" name = "Commentary" rows = "5" cols = "60"></textarea><br><br>
+            <label for = "country">Country:</label>
+            <select id = "country" name = "country" required>
+                <option value = "">Select Your Country</option>
+                <option value = "kz">Kazakhstan</option>
+                <option value = "ru">Russia</option>
+                <option value = "us">USA</option>
+                <option value = "uk">United Kingdom</option>
+            </select>
+            <button type = "submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+<!--input позваляет вводить данные, для него есть label, который связывает input с элементом формы, кстати все элементы формы сидят в form-->
+<!--textarea используется для многострочного ввода данных, button - для создания кнопок-->
+<!--select используется для создания выпадающего списка, option - элементы того самого списка-->
+<!--fieldset используется для логичного структурирования кода, legend - для ввода загаловка внутри fieldset-->
+<!--button я добавил по приколу-->
+
