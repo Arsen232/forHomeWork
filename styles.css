@@ -1,0 +1,39 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   margin: 20px;
+}
+p {
+   color: #032ff3;
+   text-align: center;
+}
+h1 {
+   color: #032ff3;
+   font-weight: bold;
+}
+h2 {
+   color: #032ff3;
+   font-weight: bold;
+}
+.sonic {
+   padding: 15px;
+   border: 1px solid black;
+}
+.amy {
+   font-size: 24px;
+   text-align: center;
+}
+.knuckles {
+   color: red;
+   font-weight: inherit;
+}
+#Shady {
+   color: blue;
+   font-weight: unset;
+}
+#Tails {
+   color: blue;
+   font-weight: lighter;
+}
+
+
