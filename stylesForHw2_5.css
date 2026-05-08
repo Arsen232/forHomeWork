@@ -1,0 +1,25 @@
+h1 {
+    color:Blue;
+    text-align: center;
+}
+h2 {
+    color:black
+}
+p {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+body {
+    background-image: url(https://www.color-hex.com/palettes/28997.png);
+}
+div {
+    padding: 23px;
+    margin: 20px;
+    border: 20px solid black;
+    border-radius: 5%;
+}
+img {
+    width: 500px;
+    height: 300px;
+}
