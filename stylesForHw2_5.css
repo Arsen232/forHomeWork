@@ -12,12 +12,14 @@ p {
 }
 body {
     background-image: url(https://www.color-hex.com/palettes/28997.png);
+    background-color: aqua;
 }
 div {
     padding: 23px;
     margin: 20px;
     border: 20px solid black;
     border-radius: 5%;
+    overflow: auto;
 }
 img {
     width: 500px;
