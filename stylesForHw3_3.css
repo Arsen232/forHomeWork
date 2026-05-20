@@ -1,0 +1,16 @@
+.b-to-i {
+    display: inline;
+    background-color: bisque;
+}
+.i-to-b {
+    display: block;
+    background-color: aquamarine;
+}
+.b-to-i2 {
+    display: inline;
+    background-color: aqua;
+}
+.i-to-b2 {
+    display: block;
+    background-color:antiquewhite
+}
