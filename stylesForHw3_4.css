@@ -1,0 +1,24 @@
+.Kill:hover {
+    background-color: rgb(65, 112, 214);
+}
+.Ultra:focus {
+    border-color: red;
+    outline: none;
+}
+li:first-child {
+    font-weight: bold;
+    background-color: aquamarine;
+}
+li:last-child {
+    font-weight: lighter;
+    background-color: blue;
+}
+a:hover {
+    background-color: blueviolet;
+}
+li:nth-child(Odd) {
+    background-color:aqua;
+}
+li:nth-child(even) {
+    background-color:antiquewhite;
+}
