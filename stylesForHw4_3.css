@@ -9,6 +9,7 @@ body {
     padding: 12px 40px;
     align-items: center;
     gap: 32px;
+    margin-bottom: 22px;
 }
 .search-box input {
     border: none;
@@ -34,6 +35,7 @@ body {
 }
 .search-box2 input {
     border: none;
+    background-color: #111928;
 }
 .Search12 {
     Line-height: 100%;
@@ -104,6 +106,30 @@ body {
 .nav5 {
     display: flex;
     gap: 50px;
+}
+.search1 {
+    border: 1px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    width: 20px;
+    height: 20px;
+}
+.shopping1 {
+    border: 1px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search2 {
     width: 33px;
