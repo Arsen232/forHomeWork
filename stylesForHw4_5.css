@@ -1,0 +1,37 @@
+body {
+    min-width: 200vw;
+    min-height: 80vw;
+}
+.positions {
+    overflow: none;
+}
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute-describe {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.absolute {
+    position: absolute;
+}
+.fixed-describe {
+    overflow: none;
+    height: 2000px;
+}
+.fixed {
+    position: fixed;
+}
+.sticky {
+    position: sticky;
+    top: 10px;
+    border: 1px solid black;
+    background-color:antiquewhite;
+}
+.recomendation {
+    position: relative;
+    bottom: 1940px;
+}

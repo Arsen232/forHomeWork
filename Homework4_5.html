@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Hw4.5</title>
+   <link rel = "stylesheet" href = "stylesForHw4_5.css">
+</head>
+<body>
+    <div class = "positions">
+        <div class = "static">Статический текст. Bce элементы стоят на static по умолчанию. Стоит соответственно остальным элементам страницы</div>
+        <div class = "relative">Релативный Текст. Настраивается в CSS. Стоят в обычном потоке, но при желании можно двигать c помощью top, left итд.</div>
+        <div class = "absolute-describe"> Этот текст существует ради обьяснения как работает position: absolute 
+            <div class = "absolute">Абсолютный (?) элемент. Позиционируется от ближайшего предка c позицией отличающейся от static. Если таких нету, позиционируется от body.</div>
+        </div>
+        <div class = "fixed">Починенный Элемент (Бро эти названия на русском странные). Позиционируется относительно окна браузера и остается на месте при прокрутке.</div>
+        <div class = "fixed-describe">
+            <div class = "sticky">Прилипший Элемент. Знаете такого человека, что прилип к вам и не может уйти? Тут тоже самое.</div>
+        </div>
+        <div class = "recomendation">Прокрути вниз чтобы увидеть свойство fixed и sticky</div>
+    </div>
