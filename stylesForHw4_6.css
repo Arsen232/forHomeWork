@@ -1,0 +1,687 @@
+.theWholeCard {
+    background-color: #111928;
+    width: 1440px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #EEF0F3;
+    background-color: #111928;
+    width: 1440px;
+    height: 119px;
+}
+.Casteaway {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    margin-left: 50px;
+}
+.nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    Line-height: 27px;
+}
+.nav {
+    gap: 40px;
+    display: flex;
+    margin-right: 40px;
+}
+.nav a:hover {
+    text-decoration: none;
+    color: #118DA8;
+    font-weight: 400;
+    font-size: 17px;
+    Line-height: 27px;
+}
+.card1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.frame {
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.recommend {
+    color: #FFFFFF;
+    display: block;
+    align-items: center;
+}
+.rcmnd1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    margin-top: 334px;
+    margin-right: 114px;
+}
+.mini-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 74px;
+}
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Latest {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    color: #FFFFFF;
+    margin-top: 93px;
+    margin-left: 50px;
+    position: relative;
+    left: 70px;
+    margin-bottom: 40px;
+    bottom: 40px;
+}
+.viewAll {
+    width: 178px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: #118DA8;
+    color: #FFFFFF;
+    border: 1px solid #118DA8;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-right: 50px;
+    position: relative;
+    right: 70px;
+}
+.Episode3 {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+.badge {
+    background-color: #191919;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    Line-height: 27px;
+    width: fit-content;
+    padding: 0px 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;
+    font-family: 'DM Sans', sans-serif;
+}
+.episode {
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+.paragraf {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    margin-bottom: 28px;
+}
+.main-info {
+    color: #FFFFFFB2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.button1 {
+    border-radius: 6px;
+    font-size: 400;
+    margin-bottom: 40px;
+    background-color: #118DA8;
+    border-color: #118DA8;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 15px 12px 20px;
+}
+.Episode2 {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+.badge2 {
+    background-color: #191919;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    Line-height: 27px;
+    width: fit-content;
+    padding: 0px 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;
+    font-family: 'DM Sans', sans-serif;
+}
+.episode2 {
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+.paragraf2 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    margin-bottom: 28px;
+}
+.main-info2 {
+    color: #FFFFFFB2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.button2 {
+    border-radius: 6px;
+    font-size: 400;
+    margin-bottom: 40px;
+    background-color: #118DA8;
+    border-color: #118DA8;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 15px 12px 20px;
+}
+.Episode1 {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+}
+.badge3 {
+    background-color: #191919;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    Line-height: 27px;
+    width: fit-content;
+    padding: 0px 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;
+    font-family: 'DM Sans', sans-serif;
+}
+.episode3 {
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+.paragraf3 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    margin-bottom: 28px;
+}
+.main-info3 {
+    color: #FFFFFFB2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.button3 {
+    border-radius: 6px;
+    font-size: 400;
+    margin-bottom: 40px;
+    background-color: #118DA8;
+    border-color: #118DA8;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 15px 12px 20px;
+}
+.charecter {
+    display: flex;
+    align-items: center;
+}
+.circle {
+    display: flex;
+    background-color: #118DA8;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 408px;
+    margin-left: 50px;
+}
+.arrow {
+    width: 38px;
+    height: auto;
+    transform: rotate(-90deg);
+}
+.meetHim {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.hisName {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-bottom: 28px;
+}
+.who {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFFB3;
+    margin-left: 50px;
+    margin-bottom: 33px;
+}
+.purpose {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFFB3;
+    margin-left: 50px;
+    margin-bottom: 367px;
+}
+.photo {
+    display: flex;
+}
+.Jacob {
+    margin-left: 70px;
+    margin-top: 260px;
+    margin-bottom: 202px;
+}
+.card {
+    background-color: #000000;
+    margin-top: 202px;
+    display: flex;
+    width: 1300px;
+    height: 387px;
+    border-radius: 32px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.information {
+    display: block;
+    align-items: center;
+}
+.Email {
+    color: #118DA8;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 59.12px;
+    margin-left: 60px;
+}
+.sub {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    margin-left: 60px;
+}
+.YourName {
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919; 
+    background-color: #191919;
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px; 
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.YourName text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px; 
+    margin-left: 19px;
+    margin-top: 26px;
+}
+.YourAdress {
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919; 
+    background-color: #191919;
+    color: #FFFFFFB3;
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px; 
+    display: block;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.submit1 {
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #118DA8;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.8px;
+    font-style: bold;
+    border: 1px solid #118DA8;
+    margin-left: 60px;
+}
+.reviews123 {
+    display: flex;
+}
+.review1 {
+    background-color: #000000;
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 200.12px;
+    margin-left: 70px;
+    margin-right: 16px;
+}
+.stars {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 60px;
+}
+.reviewer-name1 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 241px;
+}
+.review2 {
+    background-color: #000000;
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 200.12px;
+}
+.stars2 {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 60px;
+}
+.reviewer-name2 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 236px;
+}
+.review3 {
+    background-color: #000000;
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 200.12px;
+    margin-left: 16px;
+    margin-right: 70px;
+}
+.stars3 {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 60px;
+}
+.reviewer-name3 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 216px;
+}
+.reviews456 {
+    display: flex;
+}
+.review4 {
+    background-color: #000000;
+    width: 423px;
+    height: 364px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 16px;
+    margin-left: 70px;
+    margin-right: 16px;
+}
+.stars4 {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 72px;
+}
+.reviewer-name4 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 216px;
+}
+.review5 {
+    background-color: #000000;
+    width: 423px;
+    height: 364px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 200.12px;
+}
+.stars5 {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text5 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 60px;
+}
+.reviewer-name5 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 216px;
+}
+.review6 {
+    background-color: #000000;
+    width: 423px;
+    height: 364px;
+    border-radius: 32px;
+    border: 1px solid #000000;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 70px;
+}
+.stars6 {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.review-text6 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-left: 50px;
+    margin-top: 21px;
+    margin-right: 60px;
+}
+.reviewer-name6 {
+    color: #FFFFFFB3;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-right: 216px;
+}
+.logo {
+    display: block;
+    margin-top: 200px;
+    margin-left: 70px;
+    position: relative;
+}
+.instagram {
+    margin-left: 70px;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+.Twitter {
+    margin-right: 10px;
+}
+.block {
+    display: block;
+    margin-left: 533.14px;
+    position: relative;
+    bottom: 95px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.Home {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+.About {
+    display: block;
+    margin-bottom: 10px;
+}
+.Episodes {
+    display: block;
+    margin-bottom: 10px;
+}
+.Contact {
+    margin-bottom: 201px;
+}
+.block2 {
+    display: block;
+    margin-left: 728px;
+    position: relative;
+    bottom: 235px;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.guide {
+    display: block;
+    margin-bottom: 10px;
+}
+.instructions {
+    display: block;
+    margin-bottom: 10px;
+}
+.changelog {
+    display: block;
+    margin-bottom: 10px;
+}
+.credit {
+    display: block;
+    margin-bottom: 10px;
+}
+.Webflow {
+    display: block;
+    margin-bottom: 10px;
+}
+.apps {
+    display: flex;
+    margin-left: 895.83px;
+    position: relative;
+    bottom: 440.12px;
+}
+.spotify {
+    margin-right: 17px;
+    display: flex;
+}
+.someApp {
+    margin-right: 17px;
+}
+.iCloud {
+    margin-right: 17px;
+}
+.someApp2 {
+    margin-right: 17px;
+}
+.someApp3 {
+    margin-right: 17px;
+}
