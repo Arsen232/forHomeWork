@@ -1,0 +1,563 @@
+.header1 {
+    background-color: #131313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32.01px;
+    padding-left: 32px;
+    height: 80px;
+    position: relative;
+    bottom: 65px;
+}
+.header2 {
+    display: none;
+}
+.sections {
+    color: #E7BDB7;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    gap: 32px;
+}
+.sections a {
+    color: #E7BDB7;
+    position: relative;
+    bottom: 30px;
+}
+.sections a:hover {
+    text-decoration-color: #E2231A;
+    color: #E5E2E1;
+}
+.home {
+    position: relative;
+    top: 10px;
+}
+.discover {
+    position: relative;
+    top: 10px;
+}
+.shop {
+    position: relative;
+    top: 10px;
+}
+.searchBox {
+    display: flex;
+    width: 512px;
+    height: 58px;
+    background-color: #353534;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.Lupa {
+    width: 26px;
+    height: 18px;
+    margin-right: 12px;
+}
+.searchBox h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #E7BDB7;
+}
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+.round {
+    border-radius: 9999px;
+    border: 1px solid #5D3F3B;
+    background-color: #2A2A2A;
+    width: 32px;
+    height: 32px;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+}
+.theWholeThing {
+    background: url(Background.jpg);
+    width: 1280px;
+    height: 1268px;
+    overflow: vertical;
+    padding-top: 64px;
+    display: block;
+}
+.profilePhoto {
+    position: relative;
+    margin-top: 19.32px;
+    margin-left: 19.32px;
+    margin-bottom: 28.32px;
+    width: 160.01px;
+    height: 160px;
+    transform: rotate(-10deg) ;
+    display: flex;
+    border: 4px solid #131313;
+    border-radius: 16px;
+}
+.card {
+    width: 1150px;
+    height: 206px;
+    background-color: #2A2A2A;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-top: 30.32px;
+    padding-right: 32px;
+    padding-left: 19.32px;
+    padding-bottom: 30.32px;
+    gap: 19.32px;
+    display: flex;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+}
+.writings {
+    display: block;
+}
+.hi {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    display: block;
+    color: #E5E2E1;
+    margin-left: 19.32px;
+    width: 942px;
+    height: 56px;
+    letter-spacing: -0.96px;
+    margin-top: 4px;
+}
+.ready {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E7BDB7;
+    width: 544.38px;
+    height: 52px;
+    margin-left: 19.32px;
+    margin-top: 8px;
+    margin-right: 366px;
+    margin-bottom: 8px;
+}
+.buttons2 {
+    display: flex;
+}
+.number1 {
+    display: flex;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    color: #E5E2E1;
+    margin-top: 24px;
+    margin-left: 19.32px;
+    margin-bottom: 68px;
+}
+.level {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.number2 {
+    display: flex;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    color: #E5E2E1;
+    margin-top: 24px;
+    margin-left: 19.32px;
+    margin-bottom: 68px;
+}
+.card2 {
+    display: none;
+}
+.smallThings {
+    display: none;
+}
+.small2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.play {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 40px;
+    color: #E5E2E1;
+    margin-top: 3px;
+}
+.see {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0066FF;
+    margin-top: 3.5px;
+}
+.mobileGamesSidebar {
+    display: none;
+}
+.Reccomend2 {
+    display: none;
+}
+.games4 {
+    display: flex;
+}
+.game1 {
+    margin-left: 40px;
+    margin-top: 24px;
+}
+.game1img {
+    width: Fill(256px);
+}
+.game2img {
+    width: Fill(256px);
+}
+.game3img {
+    width: Fill(256px);
+}
+.game4img {
+    width: Fill(256px);
+}
+.game5img {
+    border-radius: 12px;
+}
+.photoOfGame7 {
+    border-radius: 12px;
+}
+.name1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E5E2E1;
+    margin-top: 8px;
+}
+.icons2 {
+    display: flex;
+    margin-top: 4px;
+}
+.likesPercent {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E7BDB7;
+}
+.game2 {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+.game3 {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+.game4 {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+.Reccomend {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 40px;
+    color: #E5E2E1;
+    margin-top: 48px;
+}
+.MobileGames4567 {
+    display: none;
+}
+.games5678 {
+    display: flex;
+}
+.game5 {
+    margin-top: 24px;
+    margin-left: 40px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+}
+.name2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E5E2E1;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.likesPercent1 {
+    color: #E7BDB7;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.Like {
+    width: 10px;
+    height: 10.5px;
+    margin-top: 10.5px;
+}
+.info {
+    display: flex;
+    margin-left: 16px;
+}
+.ActivePlayers {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #E7BDB7;
+    margin-left: 169.77px;
+    margin-top: 8px;
+}
+.photoOfGame5 {
+    height: Hug(288px);
+}
+.game6 {
+    margin-top: 24px;
+    margin-left: 16px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+}
+.game7 {
+    margin-top: 24px;
+    margin-left: 16px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+}
+.game8 {
+    margin-top: 24px;
+    margin-left: 16px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+}
+@media (max-width: 320px) {
+    .theWholeThing {
+        background-image: none;
+        background-color: #111111;
+        width: 390px;
+        height: 1136px;
+    }
+    .Controler {
+        display: flex;
+    }
+    .header1 {
+        display: none;
+    }
+    .header2 {
+        display: flex;
+        justify-content: space-between;
+        background-color: #131313;
+        align-items: center;
+        width: 390px;
+        height: 64px;
+        position: relative;
+        bottom: 64px;
+    }
+    .Roblox {
+        width: 82px;
+        height: 28px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .Guy1 {
+        border-radius: 9999px;
+        border: 2px solid #E2231A;
+        width: 32px;
+        height: 32px;
+        margin-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .thatOneCircleThing {
+        margin-right: 16px;
+    }
+    .photos {
+        display: flex;
+    }
+    .games4 {
+        display: none;
+    }
+    .Bell {
+        margin-right: 16px;
+    }
+    .card {
+        display: none;
+    }
+    .card2 {
+        display: flex;
+        width: 358px;
+        height: 104px;
+        background-color: #2A2A2A;
+        border-left: 4px solid #E2231A;
+        border-radius: 12px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 48px;
+    }
+    .writings2 {
+        display: block;
+    }
+    .welcome {
+        color: #E7BDB7;
+        margin-top: 24px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .hi2 {
+        margin-top: 4px;
+        color: #E5E2E1;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 24px;
+    }
+    .controler {
+        position: relative;
+        left: 43px;
+    }
+    .smallThings {
+        display: flex;
+        justify-content: space-between;
+    }
+    .MobileGameImage1 {
+        margin-top: 16px;
+    }
+    .mobileGamesSidebar {
+        display: flex;
+        overflow-x: auto;
+    }
+    .MobileGame1 {
+        display: block;
+    }
+    .MName1 {
+        color: #E5E2E1;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 12px;
+    }
+    .MobileGame2 {
+        display: block;
+    }
+    .MName2 {
+        color: #E5E2E1;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 12px;
+    }
+    .MobileGameImage2 {
+        margin-top: 16px;
+    } 
+    .MobileGame3 {
+        display: block;
+    }
+    .MName3 {
+        color: #E5E2E1;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 22px;
+        position: relative;
+        bottom: 12px;
+    }
+    .MobileGameImage3 {
+        margin-top: 16px;
+        width: 160px;
+        height: 160px;
+        border-radius: 12px;
+        margin-right: 16px;
+    }
+    .Reccomend2 {
+        display: flex;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #E5E2E1;
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+    .MobileGame5 {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 8px;
+    }
+    .MobileGame6 {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 4px;
+    }
+    .MobileGame7 {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 8px;
+    }
+    .MobileGame8 {
+        display: flex;
+        margin-top: 16px;
+        margin-left: 4px;
+    }
+    .MobileGames4567 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .small2 {
+        display: none;
+    }
+    .games5678 {
+        display: none;
+    }
+    .Reccomend {
+        display: none;
+    }
+    .continuePlaying {
+        color: #E5E2E1;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 20px;
+    }
+    .icon {
+        position: relative;
+        bottom: 20px;
+        margin-right: 20px;
+    }
+}
+.Controler {
+    display: none;
+}
