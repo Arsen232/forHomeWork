@@ -1,0 +1,129 @@
+body {
+    background-color: #111111;
+}
+.Game1 {
+    margin-top: 24px;
+    margin-left: 10px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+    color: #E5E2E1;
+}
+.forDesktop {
+    border: 1px solid #111111;
+}
+.allDeskGames {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 16px;
+    grid-column-gap: 17px;
+}
+.Reccomend {
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E5E2E1;
+    margin-left: 10px;
+}
+.info {
+    display: flex;
+}
+.ActivePlayers {
+    display: flex;
+    margin-left: 167.44px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 10px;
+    color: #E7BDB7;
+}
+.like {
+    display: flex;
+    width: 10px;
+    height: 10.5px;
+    margin-top: 10.5px;
+    gap: 4px;
+    margin-left: 16px;
+}
+.likesPercent {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #E7BDB7;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.name {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.Game2 {
+    margin-top: 24px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+    color: #E5E2E1;
+}
+.Game3 {
+    margin-top: 24px;
+    background-color: #201F1F;
+    border: 1px solid #5D3F3B;
+    border-radius: 12px;
+    width: 288px;
+    height: 363px;
+    color: #E5E2E1;
+}
+.game5img {
+    width: 288px;
+    height: 286px;
+    border-radius: 12px;
+}
+.forMobile {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .allDeskGames {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+    }
+    .Game1 {
+        margin-left: 1px;
+    }
+    .forMobile {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .forMobile {
+        display: grid;
+    }
+    .allDeskGames {
+        Display: none;
+    }
+    .Reccomend {
+        display: none;
+    }
+    .Reccomend2 {
+        display: flex;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #E5E2E1;
+        margin-left: 10px;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 320px) {
+    .allDeskGames {
+        Display: none;
+    }
+    .forMobile {
+        display: grid;
+    }
+}
