@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Font1;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Font2;
+    src: url(LibreCaslonCondensed-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Font3;
+    src: url(LibreCaslonCondensed-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Font4;
+    src: url(PlaywriteCAGuides-Regular.ttf);
+}
+@font-face {
+    font-family: Font5;
+    src: url(PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+.intro {
+    font-family: Font1;
+}
+.hi {
+    font-family: Font2;
+}
+.but {
+    font-family: Font3;
+}
+.task {
+    font-family: Font4, Font3;
+}
+.completion {
+    font-family: "Isometra", serif;
+    font-weight: 400;
+    font-size: normal;
+}
