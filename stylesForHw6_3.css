@@ -1,0 +1,28 @@
+.box {
+    border: 1px solid blue;
+    font-weight: 700;
+    font-size: 40px;
+    color: blue;
+}
+.box::before {
+    content: "And i would've did anything for you";
+    display: block;
+    color: Black;
+}
+.box::after {
+    content: "But it's over now, it's too late to save our love";
+    display: block;
+    color: black;
+}
+.paragraph {
+    display: block;
+    color: red;
+    font-weight: 700;
+}
+.paragraph::first-letter {
+    font-size: 2em;
+    color: black;
+}
+.paragraph::first-line {
+    font-size: bold;
+}
