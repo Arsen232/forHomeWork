@@ -1,0 +1,70 @@
+.animation {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    rotate: 45deg;
+}
+.animation2 {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    animation: pulse 2s infinite;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.animation3 {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: slideRight 3s infinite alternate;
+    margin-top: 20px;
+}
+@keyframes slideRight {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+.animation4 {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: slideToSide 2s infinite alternate;
+    margin-top: 20px;
+}
+@keyframes slideToSide {
+    from {
+        transform: skew(0deg);
+    }
+    to {
+        transform: skew(50deg);
+    }
+}
+.button1 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+.button1:hover {
+    background-color: gold;
+}
