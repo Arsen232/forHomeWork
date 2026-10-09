@@ -1,7 +1,7 @@
 body {
     background-color: #111111;
 }
-.Game1 {
+.Game-Number_1 {
     margin-top: 24px;
     margin-left: 10px;
     background-color: #201F1F;
@@ -11,10 +11,10 @@ body {
     height: 363px;
     color: #E5E2E1;
 }
-.forDesktop {
+.for_Desktop {
     border: 1px solid #111111;
 }
-.allDeskGames {
+.all-Desk_Games {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 16px;
@@ -31,7 +31,7 @@ body {
 .info {
     display: flex;
 }
-.ActivePlayers {
+.Active-Players {
     display: flex;
     margin-left: 167.44px;
     font-weight: 700;
@@ -48,7 +48,7 @@ body {
     gap: 4px;
     margin-left: 16px;
 }
-.likesPercent {
+.likes-Percent {
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
@@ -60,7 +60,7 @@ body {
     margin-top: 16px;
     margin-left: 16px;
 }
-.Game2 {
+.Game-Number_2 {
     margin-top: 24px;
     background-color: #201F1F;
     border: 1px solid #5D3F3B;
@@ -69,7 +69,7 @@ body {
     height: 363px;
     color: #E5E2E1;
 }
-.Game3 {
+.Game-Number_3 {
     margin-top: 24px;
     background-color: #201F1F;
     border: 1px solid #5D3F3B;
@@ -87,12 +87,12 @@ body {
     display: none;
 }
 @media (max-width: 1024px) {
-    .allDeskGames {
+    .all-Desk_Games {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: fit-content;
     }
-    .Game1 {
+    .Game-Number_1 {
         margin-left: 1px;
     }
     .forMobile {
@@ -103,7 +103,7 @@ body {
     .forMobile {
         display: grid;
     }
-    .allDeskGames {
+    .all-Desk_Games {
         Display: none;
     }
     .Reccomend {
@@ -120,7 +120,7 @@ body {
     }
 }
 @media (max-width: 320px) {
-    .allDeskGames {
+    .all-Desk_Games {
         Display: none;
     }
     .forMobile {
