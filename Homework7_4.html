@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw7.4</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <script>
+        let question1 = prompt("Напишите Цифру");
+        if (question1 > 10) {
+            console.log("Число Больше 10")
+        }
+        else {
+            console.log("Число Меньше Или Равно 10")
+        }
+        let question2 = confirm("Хотите Удалить Файл?")
+        if (question2) {
+            console.log("Файл Удален")
+        }
+        else {
+            console.log("Файл He Удален");
+        }
+        let question3 = prompt("Введите Ваш Возраст: ");
+        if (question3 < 18) {
+            console.log("Вы Еще Подросток")
+        }
+        else if (18 <= question3 <= 30) {
+            console.log("Вы Молодой Взрослый")
+        }
+        else if (question3 > 30) {
+            console.log("Вы Взрослый");
+        }
+        let question4 = prompt("Введите число снова: ");
+        let question4part2 = (question4 % 2 == 0)? "Делится на 2": "He Делится He 2";
+        console.log(question4part2);
+        let question5 = prompt("Введите число от 1 до 7");
+        switch (question5) {
+            case "1":
+               message = "Понидельник";
+               break;
+            case "2":
+               message = "Вторник"
+               break;
+            case "3":
+               message = "Среда"
+               break;
+            case "4":
+               message = "Четверг"
+               break;
+            case "5":
+               message = "Пятница"
+               break;
+            case "6":
+               message = "Суббота"
+               break;
+            case "7":
+               message = "Воскресеье"
+               break;
+            default: 
+               message = "Некорректное Значение"
+        }
+        console.log(message);
+        let question6x = prompt("Напишите Одно Число: ")
+        let question6y = prompt("Напишите Второе Число: ")
+        if (question6x > question6y) {
+            console.log("Первое Число Больше");
+        }
+        else if (question6x < question6y) {
+            console.log("Второе Число Больше");
+        }
+        else {
+            console.log("O6a Значения Равны");
+        }
+        let DopQuestion = prompt("Вы He Устали Вписывать Числа? Если Нет, To Впишите Еще Одно, От 1 До 12");
+        switch(DopQuestion) {
+            case "1":
+               message2 = "Зима";
+               break;
+            case "2":
+               message2 = "Зима";
+               break;
+            case "3":
+               message2 = "Весна";
+               break;
+            case "4":
+               message2 = "Весна";
+               break;
+            case "5":
+               message2 = "Весна";
+               break;
+            case "6":
+               message2 = "Лето";
+               break;
+            case "7":
+               message2 = "Лето";
+               break;
+            case "8":
+               message2 = "Лето";
+               break;
+            case "9":
+               message2 = "Осень";
+               break;
+            case "10":
+               message2 = "Осень";
+               break;
+            case "11":
+               message2 = "Осень";
+               break;
+            case "12":
+               message2 = "Зима";
+               break;
+            default:
+               message2 = "Я ЖЕ СКАЗАЛ OT ОДНОГО ДО 12";
+        }
+        console.log(message2);
+    </script>
+</body>
