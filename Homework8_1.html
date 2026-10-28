@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw8.1</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <script>
+        // Задание 1
+        function greet(hello) {
+            console.log(hello + ", World" + "!");
+        }
+        greet("Hello")
+        // Задание 2
+        function sayHello(name) {
+            console.log("Hello, " + name + "!");
+        }
+        sayHello("Arsen");
+        sayHello("Lola");
+        // Задание 3
+        let num1 = 20;
+        let num2 = 50;
+        function sum(a,b) {
+           return a + b;
+        }
+        console.log(sum(num1, num2));
+        // Задание 4
+        let num3 = 3;
+        let num4 = 4;
+        function isEven(a) {
+            return a % 2 === 0;
+        }
+        if (isEven(num3)) {
+            console.log ('true');
+        } else {
+            console.log('false');
+        }
+
+        if (isEven(num4)) {
+            console.log ('true');
+        } else {
+            console.log('false');
+        }
+
+        // Задание 5
+        let num5 = 4;
+        let num6 = 5;
+        let num7 = 4;
+        let num8 = 8;
+        function max(a,b) {
+            return a > b;
+        }
+        if (max(num6,num5)) {
+            console.log("Первая больше")
+        } else if (max(num5, num8)) {
+            console.log("Вторая Больше")
+        } else {
+            console.log('Они равны');
+        }
+        // Задание 6
+        function getInitials(firstName, lastName) {
+            return firstName[0] + "." + lastName[0];
+        }
+        console.log(getInitials("Apceн", "Даниярулы"));
+        // Задание 7
+        function square(a) {
+            return a ** 2;
+        }
+        function cube(a) {
+            return square(a) * a;
+        }
+        console.log(square(5));
+        console.log(cube(5));
+        // Задание 8
+        const sum2 = (a,b) => a + b;
+        console.log(sum2(3,4));
+    </script>
+</body>
