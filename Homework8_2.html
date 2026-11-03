@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw8.2</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <script>
+        // Задание 1
+        let person = {
+            name: "Arsen",
+            age: "15",
+            city: "Almaty"
+        };
+        console.log(person)
+        // Задание 2
+        console.log(person["age"]);
+        console.log(person["name"]);
+        person.city = "Moscow";
+        console.log(person["city"]);
+        // Задание 3
+        person.greet = function() {
+            console.log(`Hi my name is ${this.name} and i'm ${this.age} years old`)
+        }
+        person.greet()
+        // Задание 4
+        let obj1 = {a: "10", b: "20"};
+        let obj2 = {a: "10", b: "20"};
+        let obj3 = (obj1 === obj2);
+        console.log(obj3);
+        // Задание 5
+        let book = {title: "Harry Potter", author: "J.K.Rowling", details: {year: "1997", pages: "450"}};
+        copyBook = Object.assign({}, book);
+        copyBook.year = "1999"
+        console.log(copyBook.year);
+        // Оно изменилось по причине того, что copyBook это копия book, не он же. Изменения copyBook не касаются book и наоборот. А details внутри book
+        // Задание 6
+        let calculator = {
+            a: 20,
+            b: 10,
+            sum() {
+                return this.a + this.b
+            },
+            multiply() {
+                return this.a * this.b
+            }
+        }
+        console.log(calculator.sum());
+        console.log(calculator.multiply());
+        // Задание 7
+        const car = {brand: "Hyundai", model: "Santa Fe"};
+        car.brand = "Lexus";
+        console.log(car.brand);
+        // const гарантирует лишь неизмену свойств и элементов обьекта, остальное для него неприступный замок
+    </script>
+</body>
