@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw9.1</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <script>
+        // Задание 1
+        let fruits = ["Apple","Banana","Orange","Pineapple"];
+        console.log(fruits);
+        // Задание 2
+        fruits.push("Cherry");
+        console.log(fruits);
+        // Задание 3
+        let lastFruit = fruits.pop();
+        let firstFruit = fruits.shift();
+        console.log(fruits);
+        // Задание 4
+        fruits.forEach((Apple) => console.log(Apple));
+        // Задание 5
+        let lengths = fruits.map(Apple => Apple.length);
+        console.log(lengths);
+        // Задание 6
+        let numbers = [1,2,3,4,5,6,7,8,9,10];
+        let evenNumbers = numbers.filter(num => num % 2 === 0);
+        console.log(evenNumbers);
+        // Задание 7
+        let sum = numbers.reduce((acc, num) => acc + num, 0);
+        console.log(sum);
+        // Задание 8
+        let biggerThan5 = numbers.find((num) => num > 5);
+        console.log(biggerThan5);
+        // Задание 9
+        let num1 = [1,2,3];
+        let num2 = [4,5,6];
+        let sumNum = num1.concat(num2);
+        console.log(sumNum);
+        // Задание 10
+        let hasBanana = fruits.includes("Banana");
+        console.log(hasBanana);
+        // Задание 11
+        fruits.reverse();
+        console.log(fruits);
+    </script>
+</body>
