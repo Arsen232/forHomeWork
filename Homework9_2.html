@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw9.2</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <script>
+        // Задание 1
+        let num = 1
+        while (num < 11) {
+            console.log(num);
+            num++;
+        }
+        // Задание 2
+        let num2 = 0;
+        while (num2 < 11) {
+            num2++
+            if (num2 === 5) {
+                continue;
+            }
+            if (num2 === 8) {
+                break;
+            }
+            console.log(num2);
+        }
+        // Задание 3
+        let num3 = 1;
+        do {
+            console.log(num3);
+            num3++;
+        } while (num3 < 6);
+        // Задание 4
+        while (true) {
+            let num5 = +prompt("Введи 10!");
+
+            if (num5 === 10) {
+                console.log("Ты ввел 10!");
+                break;
+            }
+            alert("Неверно! Попробуй еще раз!")
+        }
+        // Задание 5
+        for(let i = 0; i < 11; i++) {
+            console.log(i);
+        }
+        // Задание 6
+        for (let i = 0; i < 100; i++) {
+            console.log("Красивая Сотка")
+        }
+        // Задание 7
+        let numbers = [1,2,3,4,5];
+        for(i = 0; i < numbers.length; i++) {
+            console.log(numbers[i]);
+        }
+        // Задание 8
+        // While я бы использовал когда не знаю точную цифру итераций, и когда нужна проверка перед каждой итерацией. Пример задание 3
+        // For я бы использовал тогда когда знаю точную цифру итераций и когда проверять перед каждой итерацией не нужно. Пример Задание 6
+        // Задание 9
+        for (let num10 = 10; num10 !== 0; num10--) {
+            console.log(num10);
+        }
+        // Задание 10
+        for (let num9 = 0; num9 !== 10; num9++) {
+            if (num9 % 2 != 0) {
+                continue;
+            } console.log(num9);
+        }
+    </script>
+</body>
