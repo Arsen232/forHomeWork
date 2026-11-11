@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw9.2</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <p id = "message">Привет, Мир!</p>
+    <div class = 'box'>d</div>
+    <div class = 'box'>d</div>
+    <div class = 'box'>d</div>
+    <div class = 'box'>d</div>
+    <p id = "text"></p>
+    <div class = "box"></div>
+    <p class = "requiem">Temp</p>
+    <p class = "highlights">Our</p>
+    <p class = "requiem">Anger</p>
+    <p class = "requiem">and</p>
+    <p class = "highlights">get</p>
+    <p class = "highlights">rewarded</p>
+    <script>
+    let message = document.getElementById("message");
+    message.textContent = "Добро Пожаловать в JavaScript!";
+    const boxes = document.getElementsByClassName("box");
+    for (let i = 0; i < boxes.length; i++) {
+        boxes[i].style.backgroundColor = "Blue";
+    };
+    const text1 = document.querySelector('#text');
+    text1.textContent = "Вот так";
+    const boxes1 = document.querySelectorAll(".box")
+    boxes1.forEach((box) => {
+        box.style.color = 'white';
+    })
+    const highlightedParaghaphs = document.querySelectorAll(".highlights")
+    highlightedParaghaphs.forEach ((highlights) => {
+        highlights.style.color = 'red';
+    })
+    </script>
+</body>
