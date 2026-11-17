@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw10.2</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    <button onclick = "console.log('Кнопка Нажата!')">Нажми Меня!</button>
+    <button id = 'buttonJS'>Нет, нажми меня!</button>
+    <div onmouseover="this.style.backgroundColor = 'blue'; console.log('Это начало войны за внимание кнопок и дивов')">Наведись на меня! He слушай кнопки!</div>
+    <input type = "text"
+    onkeydown = "console.log('Клавиша Нажата:', event.key)">
+    <button target = "_blank">
+        <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ", id = "Link">НАЖМИ.HA.МЕНЯ.</a>
+    </button>
+    <ul id = "list">
+        <li>Hi</li>
+        <li>My name</li>
+        <li>is Gustavo</li>
+    </ul>
+    <input id = "keyboardInput">
+    <script>
+        const button1 = document.querySelector('#buttonJS');
+        button1.addEventListener('click', () => {
+            alert('Обработано c помощью JS');
+        })
+        const Link1 = document.getElementById('Link')
+        Link1.addEventListener('click', () => {
+            event.preventDefault();
+            console.log('фух, спас от рик ролла')
+        })
+        const list = document.getElementById('list');
+        list.onclick = (event) => {
+            console.log(event.target.textContent);
+        }
+        const keyboard = document.getElementById('keyboardInput');
+        keyboard.addEventListener("keydown", (event) => {
+            console.log(event.code);
+        })
+    </script>
+</body>
