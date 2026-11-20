@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial scale = 1.0">
+   <title>Hw10.3</title>
+   <link rel="stylesheet">
+</head>
+<body>
+    Hello, World!
+    <script>
+        localStorage.setItem('greeting','Hello, World!')
+        const greet = localStorage.getItem('greeting')
+        console.log(greet)
+        const user = {name:'Arsen', age: 16, isMusician: true};
+        const userJSON = JSON.stringify(user);
+        localStorage.setItem('user', userJSON);
+        const storedUser = localStorage.getItem('user');
+        const parsedUser = JSON.parse(storedUser);
+        console.log(parsedUser)
+        // Задание 4
+        let user1 = JSON.parse(localStorage.getItem('user'));
+        user.country = 'Kazakhstan';
+        localStorage.setItem('user', JSON.stringify(user));
+        let updatedUser = JSON.parse(localStorage.getItem('user'));
+        console.log(updatedUser);
+        // Задание 5
+        let userData = localStorage.getItem('user');
+        if (userData !== null) {
+            let user = JSON.parse(userData);
+            console.log('Пользователь найден:', user);
+        } else {
+            let newUser = {
+            name: 'Alisher',
+            age: 19,
+            country: 'Russia'
+    };
+    localStorage.setItem('user', JSON.stringify(newUser));
+    console.log('Новый пользователь создан и сохранён:', newUser);
+}
+    localStorage.clear();
+    console.log(localStorage.getItem('user'))
+    let tasks = [
+        {title: 'Пройти Future Funk', completed: false}
+    ]
+    const tasksJSON = JSON.stringify(tasks)
+    localStorage.setItem('tasks', tasksJSON);
+    const tasks1 = localStorage.getItem('tasks')
+    const tasks2 = JSON.parse(tasks1)
+    console.log(tasks2)
+    localStorage.setItem('tasks3', JSON.stringify(tasks));
+    const tasks4 = JSON.parse(localStorage.getItem('tasks3'));
+    tasks4[0].completed = true;
+    localStorage.setItem('tasks3', JSON.stringify(tasks4));
+    console.log(JSON.parse(localStorage.getItem('tasks3')));
+
+    </script>
+</body>
